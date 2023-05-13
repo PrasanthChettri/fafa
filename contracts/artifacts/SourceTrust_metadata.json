@@ -1,0 +1,127 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "vehicleNumber",
+						"type": "string"
+					}
+				],
+				"name": "addVehicle",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "uuId",
+						"type": "uint256"
+					}
+				],
+				"name": "getSourceTrust",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVehicles",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSampleVehicles",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "uuId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "trust",
+						"type": "uint256"
+					}
+				],
+				"name": "updateSourceTrust",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/trust_store.sol": "SourceTrust"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/trust_store.sol": {
+			"keccak256": "0x3b5d7ad984a351911e17cfabe2dd838f71e45d30935c3bc0a3e93dd5412cf170",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://dd50ce4dc6c2f6d7ca3d6940cb90c6b800801a38afdeb5fe2019e3b38cf06f30",
+				"dweb:/ipfs/QmSjeTheCR2skq6xWCgVFvGPJieg5kWQCPapd6oXUxYNH1"
+			]
+		}
+	},
+	"version": 1
+}

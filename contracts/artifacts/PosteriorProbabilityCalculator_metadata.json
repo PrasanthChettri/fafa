@@ -1,0 +1,254 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "P_e",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "P_E",
+						"type": "uint256"
+					}
+				],
+				"name": "calculatePosteriorProbability",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "sourceId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "distance",
+						"type": "uint256"
+					}
+				],
+				"name": "callEventCredibility",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "cm",
+				"outputs": [
+					{
+						"internalType": "contract CredibilityMetrics",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCredibilityList",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rsu",
+				"outputs": [
+					{
+						"internalType": "contract RSU",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "setRSU",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sourceTrust",
+				"outputs": [
+					{
+						"internalType": "contract SourceTrust",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "trust",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "offset",
+						"type": "bool"
+					}
+				],
+				"name": "updateTrust",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "offset",
+						"type": "bool"
+					}
+				],
+				"name": "updateVehicleTrust",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/posterior_probability_cal.sol": "PosteriorProbabilityCalculator"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Message.sol": {
+			"keccak256": "0x421526cbdd1b63d3324ba9e77b2071c25526d89ac4aa126659354b228cceea29",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ddd0ac23ae7b03c2d671af93cb0d5255178c7f971c3d8fb76ad281ce4423a821",
+				"dweb:/ipfs/Qmb6PCmREjwwiEf2Bzgqyn5ECTtQJTa4gyf9p7qzECThUT"
+			]
+		},
+		"contracts/RSU.sol": {
+			"keccak256": "0x3f64f3708ab913c1f57248ee8fe2329a2300469ebf15fd3dd5712f1db29a919e",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fd09295a009f11cad177075aca308661004f13329abd00f115c56d62c879972e",
+				"dweb:/ipfs/QmVqmtirC5N5TsbWnKb1voWerEebHuLe9pUEc3H1oDh2mM"
+			]
+		},
+		"contracts/posterior_probability_cal.sol": {
+			"keccak256": "0xe838545e8ee3b72d02f8be2e85085543b7817046507054c5392ade53c03c7bc3",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://53b3fd5263a9d34316bbaa4b5609bd1425bcb52052d2384a6739c35d1a143d10",
+				"dweb:/ipfs/QmY6845qfhSBdxinFNZy8K6t7PPbf3i9wVwVuXiwm6Y4dV"
+			]
+		},
+		"contracts/trust_calculation.sol": {
+			"keccak256": "0x5154b744ce6b90d36d4e10f447564bd3253aa70753f60a838e141166f8710698",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e1602a6dd0f8b661facd817ea16fe70d0c9e0475111b7b6a79fdde9427cf35df",
+				"dweb:/ipfs/QmTANFo1W5QWF3SA372cubBzw9Hk2PfZ4r688ZqBnqBiEy"
+			]
+		},
+		"contracts/trust_store.sol": {
+			"keccak256": "0x3b5d7ad984a351911e17cfabe2dd838f71e45d30935c3bc0a3e93dd5412cf170",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://dd50ce4dc6c2f6d7ca3d6940cb90c6b800801a38afdeb5fe2019e3b38cf06f30",
+				"dweb:/ipfs/QmSjeTheCR2skq6xWCgVFvGPJieg5kWQCPapd6oXUxYNH1"
+			]
+		}
+	},
+	"version": 1
+}

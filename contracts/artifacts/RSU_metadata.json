@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "uuId",
+						"type": "uint256"
+					}
+				],
+				"name": "getRsuMessage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "uuId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "trust",
+						"type": "uint256"
+					}
+				],
+				"name": "setRsuMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "setSourceTrust",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sourceTrust",
+				"outputs": [
+					{
+						"internalType": "contract SourceTrust",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RSU.sol": "RSU"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RSU.sol": {
+			"keccak256": "0x3f64f3708ab913c1f57248ee8fe2329a2300469ebf15fd3dd5712f1db29a919e",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fd09295a009f11cad177075aca308661004f13329abd00f115c56d62c879972e",
+				"dweb:/ipfs/QmVqmtirC5N5TsbWnKb1voWerEebHuLe9pUEc3H1oDh2mM"
+			]
+		},
+		"contracts/trust_store.sol": {
+			"keccak256": "0x3b5d7ad984a351911e17cfabe2dd838f71e45d30935c3bc0a3e93dd5412cf170",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://dd50ce4dc6c2f6d7ca3d6940cb90c6b800801a38afdeb5fe2019e3b38cf06f30",
+				"dweb:/ipfs/QmSjeTheCR2skq6xWCgVFvGPJieg5kWQCPapd6oXUxYNH1"
+			]
+		}
+	},
+	"version": 1
+}

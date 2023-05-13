@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getShortestPath",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zone_calculation.sol": "ShortestPath"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/zone_calculation.sol": {
+			"keccak256": "0x2ad30c3fb1af59b01b925de6c234e9429fe4466faa02d5fa06ad6f6851601227",
+			"urls": [
+				"bzz-raw://53888f7950c7ff37c96d8a0bc36ae89d3a04db0ea84d34c6c52dd059fab286bb",
+				"dweb:/ipfs/QmUVuEfeLqrjW7hhtShzG9ksWUeT6AWv7YNDMctAGU6Qmg"
+			]
+		}
+	},
+	"version": 1
+}
